@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="304.60507"
+   height="120.45291"
+   viewBox="376 235 168.49397 53.258046"
+   id="svg3003"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="[global] function.png">
+  <metadata
+     id="metadata3019">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3017" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1138"
+     id="namedview3015"
+     showgrid="false"
+     inkscape:zoom="1"
+     inkscape:cx="12.28362"
+     inkscape:cy="110.00324"
+     inkscape:window-x="1912"
+     inkscape:window-y="50"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3005"
+     fit-margin-top="10"
+     fit-margin-left="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <g
+     id="g3005"
+     transform="translate(36.138951,9.1418707)">
+    <rect
+       style="fill:none;stroke:#333333;stroke-width:0.55536813;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       x="345.67029"
+       y="224.9818"
+       width="156.87549"
+       height="55.010712"
+       id="rect3009"
+       rx="4.5592673e-017" />
+    <text
+       style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:monospace"
+       x="424.64368"
+       y="251.2"
+       id="text3011"
+       sodipodi:linespacing="125%">
+      <tspan
+         sodipodi:role="line"
+         id="tspan3021"
+         x="424.64368"
+         y="251.2">FoulPlanet(Planet)</tspan>
+    </text>
+    <text
+       style="font-size:16px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
+       x="424.64368"
+       y="272"
+       id="text3013">Pollute</text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="189.52399"
+       y="20.262266"
+       id="text3025"
+       sodipodi:linespacing="125%"
+       transform="matrix(0.55315548,0,0,0.55315548,310.65218,230.24297)"><tspan
+         sodipodi:role="line"
+         id="tspan3027"
+         x="189.52399"
+         y="20.262266"></tspan></text>
+    <text
+       style="font-size:12.80000019px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:monospace"
+       x="421.12457"
+       y="239.60373"
+       id="text3011-1"
+       sodipodi:linespacing="125%">
+      <tspan
+         sodipodi:role="line"
+         id="tspan3021-7"
+         x="421.12457"
+         y="239.60373">static</tspan>
+    </text>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="Layer"
+     transform="translate(36.138951,9.1418707)" />
+</svg>
