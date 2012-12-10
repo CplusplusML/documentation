@@ -1,0 +1,4 @@
+union Language
+{
+  /* data */
+};

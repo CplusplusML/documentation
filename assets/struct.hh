@@ -1,0 +1,4 @@
+struct RadionAccelerator
+{
+  /* data */
+};
