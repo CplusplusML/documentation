@@ -10,7 +10,8 @@ foreach ($SITE['menu'][$page]['sections'] as $section => $title) {
   $image_url  = sprintf('%s/%s/%s.png', $SITE['base_url'], ASSETS_DIR, $section);
   $image_url  = file_exists($image_file) ? $image_url : '';
 ?>
-<section id="<?=$section ?>" class="page">
+<h1 id="<?=$section ?>"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2><?=$title ?></h2>
   </div>

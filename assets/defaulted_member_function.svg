@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="377.86172"
+   height="143.98441"
+   viewBox="309 259 196.69335 68.064628"
+   id="svg3902"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="defaulted member function.svg">
+  <metadata
+     id="metadata3924">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs3922" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1680"
+     inkscape:window-height="988"
+     id="namedview3920"
+     showgrid="false"
+     fit-margin-top="10"
+     fit-margin-right="10"
+     fit-margin-bottom="10"
+     fit-margin-left="10"
+     inkscape:zoom="1.2949307"
+     inkscape:cx="248.88165"
+     inkscape:cy="95.750259"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g3904">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2989"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-35.557165px"
+       originy="6.1726935px" />
+  </sodipodi:namedview>
+  <g
+     id="g3904"
+     transform="translate(-14.043336,-2.170631)">
+    <rect
+       style="fill:none;stroke:#333333;stroke-width:0.55396205;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       x="328.51416"
+       y="263.20004"
+       width="185.73349"
+       height="44"
+       id="rect3908-5" />
+    <text
+       style="font-size:12.79999924px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:monospace"
+       x="421.40277"
+       y="278.40005"
+       id="text3910-9">
+      <tspan
+         style="font-size:12.04535236px"
+         id="tspan2990">class</tspan>
+    </text>
+    <text
+       style="font-size:15.05668971px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
+       x="420.9942"
+       y="299.20004"
+       id="text3912-7">SpaceCraft</text>
+    <g
+       id="g2997">
+      <rect
+         id="rect3916-8"
+         height="20"
+         width="185.73349"
+         y="307.20004"
+         x="328.51416"
+         style="fill:none;stroke:#333333;stroke-width:0.55396205;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none" />
+      <text
+         id="text3918-3"
+         y="320.60538"
+         x="334.94589"
+         style="font-size:11.1841774px;font-style:normal;font-weight:normal;text-anchor:start;fill:#333333;fill-opacity:1;font-family:monospace">
+        <tspan
+           id="tspan2989"
+           style="font-size:12.79999924px">SpaceCraft() = default</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

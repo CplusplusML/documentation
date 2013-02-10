@@ -24,10 +24,11 @@ $SITE = array(
   'templates' => array(
     'title'    => 'Templates',
     'sections' => array(
-      'template'                => 'Template',
-      'template_alias'          => 'Template alias',
-      'template_parameters'     => 'Template parameters',
-      'template_specialisation' => 'Template spelialisation',
+      'template_parameters' => 'Template parameters',
+      'template_parameters_multiple' => 'Template parameters Multiple',
+      'template_parameters_integer'  => 'Template parameters Integer',
+      'template_alias'               => 'Template alias',
+      'template_specialization'      => 'Template spelialization',
     )
   ),
   'datas' => array(
@@ -51,19 +52,25 @@ $SITE = array(
     'title'    => 'Member datas',
     'sections' => array(
       'member_data'                  => 'Member data',
+      'public_member_data'           => 'Public member data',
+      'protected_member_data'        => 'Protected member data',
+      'private_member_data'          => 'Private member data',
       'const_member_data'            => 'Const member data',
       'volatile_member_data'         => 'Volatile member data',
       'static_member_data'           => 'Static member data',
       'static_const_member_data'     => 'Static const member data',
       'static_constexpr_member_data' => 'Static constexpr member data',
-      'member_data_visibility'       => 'Member data visibility',
+      'member_data_aggregation'      => 'Member data aggregation',
+      'member_data_composition'      => 'Member data composition',
     )
   ),
   'member_functions' => array(
     'title'    => 'Member functions',
     'sections' => array(
       'member_function'                  => 'Member function',
-      'member_function_visibility'       => 'Member function visibility',
+      'public_member_function'           => 'Public member function',
+      'protected_member_function'        => 'Protected member function',
+      'private_member_function'          => 'Private member function',
       'deleted_member_function'          => 'Deleted member function',
       'defaulted_member_function'        => 'Defaulted member function',
       'const_member_function'            => 'Const member function',
@@ -81,14 +88,19 @@ $SITE = array(
   'misc' => array(
     'title'    => 'Miscellaneous',
     'sections' => array(
-      'dependency'              => 'Dependency',
-      'inheritance'             => 'Inheritence',
-      'inheritence_visibility'  => 'Inheritence visibility',
-      'friendship'              => 'Friendship',
-      'nested_type'             => 'Nested type',
-      'default_values'          => 'Dependency',
-      'libraries'               => 'Libraries',
-      'extern'                  => 'Extern',
+      'dependency'                    => 'Dependency',
+      'inheritance'                   => 'Inheritence',
+      'public_inheritance'            => 'Public inheritence ',
+      'public_inheritance_verbose'    => 'Public inheritence (verbose)',
+      'protected_inheritance'         => 'Protected inheritence',
+      'protected_inheritance_verbose' => 'Protected inheritence (verbose)',
+      'private_inheritance'           => 'Private inheritence',
+      'private_inheritance_verbose'   => 'Private inheritence (verbose)',
+      'friendship'                    => 'Friendship',
+      'nested_type'                   => 'Nested type',
+      'default_values'                => 'Default values',
+      'libraries'                     => 'Libraries',
+      'extern'                        => 'Extern',
     )
    ),
   ),

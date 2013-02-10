@@ -34,7 +34,7 @@ $(document).ready(function() {
     $curLink = $("a[data-target='"+hash+"']")
 
     $curHeader = $curLink.parents().prevAll('.nav-header:first()')
-    $('#left-menubar .nav').animate({scrollTop: $curHeader.offset().top - 200}, 500)
+    $('#left-menubar .nav').animate({scrollTop: $curHeader.offset().top - 200}, 0)
   }
 
   initMenubarLink();

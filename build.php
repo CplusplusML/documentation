@@ -15,6 +15,7 @@ function render($PAGE, $template) {
   global $SITE;
 
   $filepath = sprintf('%s/%s.tpl', TEMPLATES_DIR, $template);
+#  die($filepath);
   if (!file_exists($filepath))
     return render($PAGE, 'default');
 
