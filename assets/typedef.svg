@@ -7,13 +7,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="193.3476"
-   height="100.1456"
-   viewBox="376 235 106.95129 44.279192"
+   width="164.5118"
+   height="140.7843"
+   viewBox="376 235 91.000608 62.247519"
    id="svg3003"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   sodipodi:docname="class.svg">
+   sodipodi:docname="typedef.svg">
   <metadata
      id="metadata3019">
     <rdf:RDF>
@@ -40,10 +40,10 @@
      inkscape:window-width="1680"
      inkscape:window-height="988"
      id="namedview3015"
-     showgrid="true"
-     inkscape:zoom="2.8284271"
-     inkscape:cx="60.043644"
-     inkscape:cy="50.73916"
+     showgrid="false"
+     inkscape:zoom="4.0000001"
+     inkscape:cx="65.857681"
+     inkscape:cy="89.121659"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
@@ -54,46 +54,61 @@
      fit-margin-left="10">
     <inkscape:grid
        type="xygrid"
-       id="grid3016" />
+       id="grid3016"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true"
+       originx="-15.886969px"
+       originy="24.459899px" />
   </sodipodi:namedview>
   <g
      id="g3005"
-     transform="translate(3.72577,-0.88813008)">
+     transform="translate(-5.0621948,8.0612577)">
     <rect
-       style="fill:none;stroke:#333333;stroke-width:0.28155616;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.25244929, 0.56311232, 0.28155616, 0.56311232;stroke-dashoffset:0"
-       x="397.87585"
-       y="238.70755"
-       width="57.371716"
-       height="38.685123"
+       style="fill:none;stroke:#333333;stroke-width:0.35789162;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:2.86313299,0.71578325,0.35789162,0.71578325;stroke-dashoffset:0"
+       x="386.81274"
+       y="224.87866"
+       width="79.49794"
+       height="66.378662"
        id="rect3009"
-       rx="1.6674019e-017" />
+       rx="2.3104594e-17" />
     <text
-       style="font-size:7.68953419px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:monospace"
-       x="425.89719"
-       y="247.80592"
+       style="font-size:12.80000052px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;writing-mode:lr-tb;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:monospace"
+       x="426.6879"
+       y="241.90511"
        id="text3011"
        sodipodi:linespacing="125%">
       <tspan
          sodipodi:role="line"
          id="tspan3021"
-         x="425.89719"
-         y="247.80592">typedef</tspan>
+         x="426.6879"
+         y="241.90511"
+         style="font-size:12.80000052px">typedef</tspan>
     </text>
     <text
-       style="font-size:9.6119175px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
-       x="425.97049"
-       y="273.52072"
-       id="text3013">int</text>
+       style="font-size:15.99999987px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
+       x="426.047"
+       y="263.80173"
+       id="text3013">
+      <tspan
+         style="font-size:15.99999987px"
+         id="tspan2989">int</tspan>
+    </text>
     <text
-       style="font-size:9.6119175px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
-       x="425.97049"
-       y="261.35117"
-       id="text3013-1">Type</text>
+       style="font-size:15.99999987px;font-style:normal;font-weight:700;text-anchor:middle;fill:#333333;fill-opacity:1;font-family:sanserif"
+       x="426.927"
+       y="280.89569"
+       id="text3013-1">
+      <tspan
+         style="font-size:15.99999987px"
+         id="tspan2991">Type</tspan>
+    </text>
   </g>
   <g
      inkscape:groupmode="layer"
      id="layer1"
      inkscape:label="Layer"
      sodipodi:insensitive="true"
-     transform="translate(3.72577,-0.88813008)" />
+     transform="translate(-5.0621948,8.0612577)" />
 </svg>

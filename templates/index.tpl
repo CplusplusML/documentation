@@ -1,4 +1,5 @@
-<section id="home" class="page">
+<h1 id="home"></h1><br/>
+<section class="page">
   <div class="section-header">
     <h1>C++ML <small>Documentation</small></h1>
     <p>

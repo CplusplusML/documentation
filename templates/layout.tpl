@@ -30,7 +30,6 @@
       </div>
       <div id="contents">
         <?=$PAGE['content']?>
-        <section id="padding">
         </section>
       </div>
     </div>
