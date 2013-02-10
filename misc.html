@@ -104,7 +104,7 @@
 
 class Bar
 {
-  Bar(const Foo&);
+  Bar(const Foo&amp;);
 };
 </code></pre>
   </div>
@@ -154,6 +154,16 @@ class Firefly : public SpaceCraft
   </div>
   <div class="assets">
     <div><img src="assets/public_inheritance_verbose.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  /* data */
+};
+
+class Firefly : public SpaceCraft
+{
+  /* data */
+};
+</code></pre>
   </div>
 </section>
 <h1 id="protected_inheritance"></h1><br/>
@@ -182,6 +192,16 @@ class Firefly : public SpaceCraft
   </div>
   <div class="assets">
     <div><img src="assets/protected_inheritance_verbose.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  /* data */
+};
+
+class Firefly : public SpaceCraft
+{
+  /* data */
+};
+</code></pre>
   </div>
 </section>
 <h1 id="private_inheritance"></h1><br/>
@@ -210,6 +230,16 @@ class Firefly : public SpaceCraft
   </div>
   <div class="assets">
     <div><img src="assets/private_inheritance_verbose.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  /* data */
+};
+
+class Firefly : public SpaceCraft
+{
+  /* data */
+};
+</code></pre>
   </div>
 </section>
 <h1 id="friendship"></h1><br/>
@@ -258,7 +288,6 @@ class Firefly : public SpaceCraft
   <div class="assets">
   </div>
 </section>
-        <section id="padding">
         </section>
       </div>
     </div>

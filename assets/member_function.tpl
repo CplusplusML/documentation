@@ -4,7 +4,7 @@
     <td><em>Chapter 9.3 "Member function", page 223</em></td>
   </tr>
   <tr>
-    <td><strong>UML Stadard 12-05-06 reference :</strong></td>
+    <td><strong>UML Standard 12-05-06 reference :</strong></td>
     <td><em>Chapter 10.3.3 "Operation", page 99</em></td>
   </tr>
 </table>

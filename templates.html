@@ -99,7 +99,7 @@
   </div>
   <div class="assets">
     <div><img src="assets/template_parameters.png"></div>
-    <pre><code class="C++">template <typename N>
+    <pre><code class="C++">template &lt;typename N&gt;
 class Templated
 {};</code></pre>
   </div>
@@ -111,7 +111,7 @@ class Templated
   </div>
   <div class="assets">
     <div><img src="assets/template_parameters_multiple.png"></div>
-    <pre><code class="C++">template <typename T, typename U>
+    <pre><code class="C++">template &lt;typename T, typename U&gt;
 class Templated
 {};</code></pre>
   </div>
@@ -123,7 +123,7 @@ class Templated
   </div>
   <div class="assets">
     <div><img src="assets/template_parameters_integer.png"></div>
-    <pre><code class="C++">template <int N>
+    <pre><code class="C++">template &lt;int N&gt;
 class Templated
 {};</code></pre>
   </div>
@@ -135,7 +135,7 @@ class Templated
   </div>
   <div class="assets">
     <div><img src="assets/template_alias.png"></div>
-    <pre><code class="C++">template <typename T>
+    <pre><code class="C++">template &lt;typename T&gt;
 using Type = T;</code></pre>
   </div>
 </section>
@@ -146,17 +146,16 @@ using Type = T;</code></pre>
   </div>
   <div class="assets">
     <div><img src="assets/template_specialization.png"></div>
-    <pre><code class="C++">template <typename N>
+    <pre><code class="C++">template &lt;typename N&gt;
 class Templated
 {};
 
-template <>
-class Templated<Templated<int> >
+template &lt;&gt;
+class Templated&lt;Templated&lt;int&gt; &gt;
 {};
 </code></pre>
   </div>
 </section>
-        <section id="padding">
         </section>
       </div>
     </div>

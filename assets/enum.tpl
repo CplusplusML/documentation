@@ -4,7 +4,7 @@
     <td><em>Chapter 7.2 "Enumeration declarations", page 157</em></td>
   </tr>
   <tr>
-    <td><strong>UML Stadard 12-05-06 reference :</strong></td>
+    <td><strong>UML Standard 12-05-06 reference :</strong></td>
     <td><em>Chapter 10.4.2, page 102</em></td>
   </tr>
 </table>
