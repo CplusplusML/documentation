@@ -1,0 +1,4 @@
+class SpaceCraft
+{
+  SpaceCraft() = default;
+};

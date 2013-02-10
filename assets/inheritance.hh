@@ -3,5 +3,7 @@ class SpaceCraft
   /* data */
 };
 
-class Soyuz : SpaceCraft
-{};
+class Firefly : SpaceCraft
+{
+  /* data */
+};

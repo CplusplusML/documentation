@@ -29,10 +29,11 @@
           <li><a data-target="#typedef" href="structs.html#typedef">Typedef</a></li>
           <li><a data-target="#namespace" href="structs.html#namespace">Namespace</a></li>
           <li class="nav-header">Templates</li>
-          <li><a data-target="#template" href="templates.html#template">Template</a></li>
-          <li><a data-target="#template_alias" href="templates.html#template_alias">Template alias</a></li>
           <li><a data-target="#template_parameters" href="templates.html#template_parameters">Template parameters</a></li>
-          <li><a data-target="#template_specialisation" href="templates.html#template_specialisation">Template spelialisation</a></li>
+          <li><a data-target="#template_parameters_multiple" href="templates.html#template_parameters_multiple">Template parameters Multiple</a></li>
+          <li><a data-target="#template_parameters_integer" href="templates.html#template_parameters_integer">Template parameters Integer</a></li>
+          <li><a data-target="#template_alias" href="templates.html#template_alias">Template alias</a></li>
+          <li><a data-target="#template_specialization" href="templates.html#template_specialization">Template spelialization</a></li>
           <li class="nav-header">Data</li>
           <li><a data-target="#global_data" href="datas.html#global_data">Global data</a></li>
           <li><a data-target="#global_static_data" href="datas.html#global_static_data">Global static data</a></li>
@@ -44,15 +45,21 @@
           <li><a data-target="#throw_function_qualifier" href="functions.html#throw_function_qualifier">Throw function qualifier</a></li>
           <li class="nav-header">Member datas</li>
           <li><a data-target="#member_data" href="member_datas.html#member_data">Member data</a></li>
+          <li><a data-target="#public_member_data" href="member_datas.html#public_member_data">Public member data</a></li>
+          <li><a data-target="#protected_member_data" href="member_datas.html#protected_member_data">Protected member data</a></li>
+          <li><a data-target="#private_member_data" href="member_datas.html#private_member_data">Private member data</a></li>
           <li><a data-target="#const_member_data" href="member_datas.html#const_member_data">Const member data</a></li>
           <li><a data-target="#volatile_member_data" href="member_datas.html#volatile_member_data">Volatile member data</a></li>
           <li><a data-target="#static_member_data" href="member_datas.html#static_member_data">Static member data</a></li>
           <li><a data-target="#static_const_member_data" href="member_datas.html#static_const_member_data">Static const member data</a></li>
           <li><a data-target="#static_constexpr_member_data" href="member_datas.html#static_constexpr_member_data">Static constexpr member data</a></li>
-          <li><a data-target="#member_data_visibility" href="member_datas.html#member_data_visibility">Member data visibility</a></li>
+          <li><a data-target="#member_data_aggregation" href="member_datas.html#member_data_aggregation">Member data aggregation</a></li>
+          <li><a data-target="#member_data_composition" href="member_datas.html#member_data_composition">Member data composition</a></li>
           <li class="nav-header">Member functions</li>
           <li><a data-target="#member_function" href="member_functions.html#member_function">Member function</a></li>
-          <li><a data-target="#member_function_visibility" href="member_functions.html#member_function_visibility">Member function visibility</a></li>
+          <li><a data-target="#public_member_function" href="member_functions.html#public_member_function">Public member function</a></li>
+          <li><a data-target="#protected_member_function" href="member_functions.html#protected_member_function">Protected member function</a></li>
+          <li><a data-target="#private_member_function" href="member_functions.html#private_member_function">Private member function</a></li>
           <li><a data-target="#deleted_member_function" href="member_functions.html#deleted_member_function">Deleted member function</a></li>
           <li><a data-target="#defaulted_member_function" href="member_functions.html#defaulted_member_function">Defaulted member function</a></li>
           <li><a data-target="#const_member_function" href="member_functions.html#const_member_function">Const member function</a></li>
@@ -68,10 +75,15 @@
           <li class="nav-header">Miscellaneous</li>
           <li><a data-target="#dependency" href="misc.html#dependency">Dependency</a></li>
           <li><a data-target="#inheritance" href="misc.html#inheritance">Inheritence</a></li>
-          <li><a data-target="#inheritence_visibility" href="misc.html#inheritence_visibility">Inheritence visibility</a></li>
+          <li><a data-target="#public_inheritance" href="misc.html#public_inheritance">Public inheritence </a></li>
+          <li><a data-target="#public_inheritance_verbose" href="misc.html#public_inheritance_verbose">Public inheritence (verbose)</a></li>
+          <li><a data-target="#protected_inheritance" href="misc.html#protected_inheritance">Protected inheritence</a></li>
+          <li><a data-target="#protected_inheritance_verbose" href="misc.html#protected_inheritance_verbose">Protected inheritence (verbose)</a></li>
+          <li><a data-target="#private_inheritance" href="misc.html#private_inheritance">Private inheritence</a></li>
+          <li><a data-target="#private_inheritance_verbose" href="misc.html#private_inheritance_verbose">Private inheritence (verbose)</a></li>
           <li><a data-target="#friendship" href="misc.html#friendship">Friendship</a></li>
           <li><a data-target="#nested_type" href="misc.html#nested_type">Nested type</a></li>
-          <li><a data-target="#default_values" href="misc.html#default_values">Dependency</a></li>
+          <li><a data-target="#default_values" href="misc.html#default_values">Default values</a></li>
           <li><a data-target="#libraries" href="misc.html#libraries">Libraries</a></li>
           <li><a data-target="#extern" href="misc.html#extern">Extern</a></li>
         </ul>
@@ -80,53 +92,157 @@
       </div>
       <div id="contents">
         
-<section id="member_data" class="page">
+<h1 id="member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  char *name_;
+};</code></pre>
   </div>
 </section>
-<section id="const_member_data" class="page">
+<h1 id="public_member_data"></h1><br/>
+<section  class="page">
+  <div class="section-header">
+    <h2>Public member data</h2>
+  </div>
+  <div class="assets">
+    <div><img src="assets/public_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  public:
+    char *name_;
+};</code></pre>
+  </div>
+</section>
+<h1 id="protected_member_data"></h1><br/>
+<section  class="page">
+  <div class="section-header">
+    <h2>Protected member data</h2>
+  </div>
+  <div class="assets">
+    <div><img src="assets/protected_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  protected:
+    char *name_;
+};</code></pre>
+  </div>
+</section>
+<h1 id="private_member_data"></h1><br/>
+<section  class="page">
+  <div class="section-header">
+    <h2>Private member data</h2>
+  </div>
+  <div class="assets">
+    <div><img src="assets/private_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  private:
+    char *name_;
+};</code></pre>
+  </div>
+</section>
+<h1 id="const_member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Const member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/const_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  const char *name_;
+};</code></pre>
   </div>
 </section>
-<section id="volatile_member_data" class="page">
+<h1 id="volatile_member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Volatile member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/volatile_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  volatile char *name_;
+};</code></pre>
   </div>
 </section>
-<section id="static_member_data" class="page">
+<h1 id="static_member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Static member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/static_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  static int nb_;
+};</code></pre>
   </div>
 </section>
-<section id="static_const_member_data" class="page">
+<h1 id="static_const_member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Static const member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/static_const_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  static const int data_ = 42;
+};</code></pre>
   </div>
 </section>
-<section id="static_constexpr_member_data" class="page">
+<h1 id="static_constexpr_member_data"></h1><br/>
+<section  class="page">
   <div class="section-header">
     <h2>Static constexpr member data</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/static_constexpr_member_data.png"></div>
+    <pre><code class="C++">class SpaceCraft
+{
+  static constexpr int data_ = 42;
+};</code></pre>
   </div>
 </section>
-<section id="member_data_visibility" class="page">
+<h1 id="member_data_aggregation"></h1><br/>
+<section  class="page">
   <div class="section-header">
-    <h2>Member data visibility</h2>
+    <h2>Member data aggregation</h2>
   </div>
   <div class="assets">
+    <div><img src="assets/member_data_aggregation.png"></div>
+    <pre><code class="C++">class Shuttle
+{};
+
+class Firefly
+{
+  Shuttle *shuttles[2];
+};</code></pre>
+  </div>
+</section>
+<h1 id="member_data_composition"></h1><br/>
+<section  class="page">
+  <div class="section-header">
+    <h2>Member data composition</h2>
+  </div>
+  <div class="assets">
+    <div><img src="assets/member_data_composition.png"></div>
+    <pre><code class="C++">class RadionAccelerator
+{};
+
+class Firefly
+{
+  RadionAccelerator engine;
+};
+</code></pre>
   </div>
 </section>
         <section id="padding">
